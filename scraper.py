@@ -74,9 +74,6 @@ class FlyScrapper:
             return await self.submit_login_form(cap=new_cap)
         except Exception as e:
             print('Login Success')
-        
-        #
-            (1)
 
 
     async def setup_flight(self):
@@ -95,8 +92,6 @@ class FlyScrapper:
         submit_form = await self.page.xpath('//*[@id="btnSubmit"]')
         await submit_form[0].click()
         await self.page.waitForNavigation()
-
-        #sleep(1.5)
     
 
     async def check_if_fly_exist(self):
