@@ -1,4 +1,3 @@
-```markdown
 # FlyScrapper
 
 FlyScrapper is a Python-based tool that automates the process of gathering flight details from various airline websites. By leveraging the capabilities of `pyppeteer` for browser automation and `easyocr` for optical character recognition, FlyScrapper navigates through the booking sections of specified URLs, logs in using captcha recognition, and scrapes available flight information such as prices, routes, and timings.
@@ -16,8 +15,8 @@ To use FlyScrapper, you need to have Python installed on your machine. You can t
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/flyscrapper.git
-cd flyscrapper
+git clone https://github.com/RZAsadi/fly-scrapper.git
+cd fly-scrapper
 
 # It's recommended to use a virtual environment
 python -m venv venv
@@ -34,7 +33,7 @@ To start using FlyScrapper, modify the `urls` list in the script with the login 
 Run the script:
 
 ```bash
-python fly_scrapper.py
+python scrapper.py
 ```
 
 ## Configuration
@@ -60,17 +59,12 @@ The `Reader` from `easyocr` is set to recognize both English (`en`) and Farsi/Pe
 reader = Reader(lang_list=['en', 'fa'], gpu=False) # Set to `gpu=True` if you want to use GPU acceleration
 ```
 
-## Contributing
-
-If you'd like to contribute to FlyScrapper, your help is very much appreciated. Please read `CONTRIBUTING.md` for details on our code of conduct and the process for submitting pull requests to us.
-
 ## License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details.
 
 ## Acknowledgments
 
-- Thanks to the `pyppeteer` and `easyocr` communities for the incredible resources.
 - This project is not affiliated with any of the flight websites it accesses and is intended for educational purposes only.
 
 ## Disclaimer
@@ -78,4 +72,4 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 This software is for educational purposes only. Using this script to scrape websites might be against the Terms of Service of the websites. Use it responsibly and ethically.
 ```
 
-Be sure to update the URL to the repository where it says `https://github.com/your-username/flyscrapper.git` with the correct URL. Also, you might want to include more details, like a `CONTRIBUTING.md` document or add a `LICENSE` file if there isn't one already. Always check and ensure you're permitted to scrape the websites you intend to target and respect their bots.txt file and terms of service.
+Be sure to update the URL to the repository where it says `https://github.com/RZAsadi/fly-scrapper.git` with the correct URL. Also, you might want to include more details, like a `CONTRIBUTING.md` document or add a `LICENSE` file if there isn't one already. Always check and ensure you're permitted to scrape the websites you intend to target and respect their bots.txt file and terms of service.
