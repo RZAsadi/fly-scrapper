@@ -33,7 +33,7 @@ To start using FlyScrapper, modify the `urls` list in the script with the login 
 Run the script:
 
 ```bash
-python scrapper.py
+python scraper.py
 ```
 
 ## Configuration
@@ -70,6 +70,3 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 ## Disclaimer
 
 This software is for educational purposes only. Using this script to scrape websites might be against the Terms of Service of the websites. Use it responsibly and ethically.
-```
-
-Be sure to update the URL to the repository where it says `https://github.com/RZAsadi/fly-scrapper.git` with the correct URL. Also, you might want to include more details, like a `CONTRIBUTING.md` document or add a `LICENSE` file if there isn't one already. Always check and ensure you're permitted to scrape the websites you intend to target and respect their bots.txt file and terms of service.
